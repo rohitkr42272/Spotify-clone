@@ -1,0 +1,42 @@
+.playerlist-container{
+padding: 20px;
+height: 99%;
+/* overflow: scroll; */
+}
+.playerlist-header{
+margin-top: 30px;
+display: flex;
+gap: 20px;
+align-items: center;
+}
+.playerlist-image-card{
+width: 250px;
+height: 250px;
+border-radius: 10px;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzaupiT3SLBtgIUMWT3XRugVAHypSjatCnCw&s);
+background-size: cover;
+}
+.playerlist-body{
+    color: azure;    
+}
+.playerlist-list{
+    color: bisque;
+    margin-top: 30px;
+    display: flex;
+}
+.playerlist-list .playerlist-list-id{
+    width: 10%;
+}
+.playerlist-list .playerlist-list-title{
+ width: 40%;
+}
+.playerlist-list .playerlist-list-album{
+ width: 40%;
+}
+.playerlist-list.playerlist-list-duration{
+ width: 10%;
+}
+.playerlist-list-container{
+   height: 32vh;
+   overflow-y: scroll;  
+}
